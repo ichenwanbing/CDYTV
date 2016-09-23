@@ -14,7 +14,6 @@
 		04DD9A371D94210D003CEBD8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04DD9A351D94210D003CEBD8 /* LaunchScreen.storyboard */; };
 		04DD9A421D94210D003CEBD8 /* DouYuTVTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DD9A411D94210D003CEBD8 /* DouYuTVTests.swift */; };
 		04DD9A4D1D94210D003CEBD8 /* DouYuTVUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DD9A4C1D94210D003CEBD8 /* DouYuTVUITests.swift */; };
-		04DD9A5B1D942D6F003CEBD8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04DD9A5A1D942D6F003CEBD8 /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,7 +47,6 @@
 		04DD9A481D94210D003CEBD8 /* DouYuTVUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DouYuTVUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04DD9A4C1D94210D003CEBD8 /* DouYuTVUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DouYuTVUITests.swift; sourceTree = "<group>"; };
 		04DD9A4E1D94210D003CEBD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		04DD9A5A1D942D6F003CEBD8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,7 +103,6 @@
 				04DD9A331D94210D003CEBD8 /* Assets.xcassets */,
 				04DD9A351D94210D003CEBD8 /* LaunchScreen.storyboard */,
 				04DD9A381D94210D003CEBD8 /* Info.plist */,
-				04DD9A5A1D942D6F003CEBD8 /* Images.xcassets */,
 			);
 			path = DouYuTV;
 			sourceTree = "<group>";
@@ -236,7 +233,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				04DD9A371D94210D003CEBD8 /* LaunchScreen.storyboard in Resources */,
-				04DD9A5B1D942D6F003CEBD8 /* Images.xcassets in Resources */,
 				04DD9A341D94210D003CEBD8 /* Assets.xcassets in Resources */,
 				04DD9A321D94210D003CEBD8 /* Main.storyboard in Resources */,
 			);
@@ -513,6 +509,7 @@
 				04DD9A531D94210D003CEBD8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04DD9A541D94210D003CEBD8 /* Build configuration list for PBXNativeTarget "DouYuTVTests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +518,7 @@
 				04DD9A561D94210D003CEBD8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04DD9A571D94210D003CEBD8 /* Build configuration list for PBXNativeTarget "DouYuTVUITests" */ = {
 			isa = XCConfigurationList;
@@ -529,6 +527,7 @@
 				04DD9A591D94210D003CEBD8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
