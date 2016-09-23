@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		04DD9A2D1D94210D003CEBD8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DD9A2C1D94210D003CEBD8 /* AppDelegate.swift */; };
-		04DD9A2F1D94210D003CEBD8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DD9A2E1D94210D003CEBD8 /* ViewController.swift */; };
 		04DD9A321D94210D003CEBD8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04DD9A301D94210D003CEBD8 /* Main.storyboard */; };
 		04DD9A341D94210D003CEBD8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04DD9A331D94210D003CEBD8 /* Assets.xcassets */; };
 		04DD9A371D94210D003CEBD8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04DD9A351D94210D003CEBD8 /* LaunchScreen.storyboard */; };
 		04DD9A421D94210D003CEBD8 /* DouYuTVTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DD9A411D94210D003CEBD8 /* DouYuTVTests.swift */; };
 		04DD9A4D1D94210D003CEBD8 /* DouYuTVUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DD9A4C1D94210D003CEBD8 /* DouYuTVUITests.swift */; };
+		04DD9AC61D9584C3003CEBD8 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04DD9AC41D9584C3003CEBD8 /* Home.storyboard */; };
+		04DD9AC91D9584EF003CEBD8 /* Live.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04DD9AC71D9584EF003CEBD8 /* Live.storyboard */; };
+		04DD9ACC1D958514003CEBD8 /* Follow.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04DD9ACA1D958514003CEBD8 /* Follow.storyboard */; };
+		04DD9ACF1D958532003CEBD8 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04DD9ACD1D958532003CEBD8 /* Profile.storyboard */; };
+		04DD9AD11D95875A003CEBD8 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DD9AD01D95875A003CEBD8 /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +40,6 @@
 /* Begin PBXFileReference section */
 		04DD9A291D94210D003CEBD8 /* DouYuTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DouYuTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04DD9A2C1D94210D003CEBD8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		04DD9A2E1D94210D003CEBD8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		04DD9A311D94210D003CEBD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		04DD9A331D94210D003CEBD8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04DD9A361D94210D003CEBD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +50,11 @@
 		04DD9A481D94210D003CEBD8 /* DouYuTVUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DouYuTVUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04DD9A4C1D94210D003CEBD8 /* DouYuTVUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DouYuTVUITests.swift; sourceTree = "<group>"; };
 		04DD9A4E1D94210D003CEBD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04DD9AC51D9584C3003CEBD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = DouYuTV/Base.lproj/Home.storyboard; sourceTree = SOURCE_ROOT; };
+		04DD9AC81D9584EF003CEBD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = DouYuTV/Base.lproj/Live.storyboard; sourceTree = SOURCE_ROOT; };
+		04DD9ACB1D958514003CEBD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = DouYuTV/Base.lproj/Follow.storyboard; sourceTree = SOURCE_ROOT; };
+		04DD9ACE1D958532003CEBD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = DouYuTV/Base.lproj/Profile.storyboard; sourceTree = SOURCE_ROOT; };
+		04DD9AD01D95875A003CEBD8 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +105,12 @@
 		04DD9A2B1D94210D003CEBD8 /* DouYuTV */ = {
 			isa = PBXGroup;
 			children = (
+				04DD9AB61D957F33003CEBD8 /* Main */,
+				04DD9AAE1D957F33003CEBD8 /* Home */,
+				04DD9AB21D957F33003CEBD8 /* Live */,
+				04DD9AAA1D957F33003CEBD8 /* Follow */,
+				04DD9ABA1D957F33003CEBD8 /* Profile */,
 				04DD9A2C1D94210D003CEBD8 /* AppDelegate.swift */,
-				04DD9A2E1D94210D003CEBD8 /* ViewController.swift */,
-				04DD9A301D94210D003CEBD8 /* Main.storyboard */,
 				04DD9A331D94210D003CEBD8 /* Assets.xcassets */,
 				04DD9A351D94210D003CEBD8 /* LaunchScreen.storyboard */,
 				04DD9A381D94210D003CEBD8 /* Info.plist */,
@@ -123,6 +134,167 @@
 				04DD9A4E1D94210D003CEBD8 /* Info.plist */,
 			);
 			path = DouYuTVUITests;
+			sourceTree = "<group>";
+		};
+		04DD9AAA1D957F33003CEBD8 /* Follow */ = {
+			isa = PBXGroup;
+			children = (
+				04DD9AAB1D957F33003CEBD8 /* controller */,
+				04DD9AAC1D957F33003CEBD8 /* model */,
+				04DD9AAD1D957F33003CEBD8 /* view */,
+			);
+			path = Follow;
+			sourceTree = "<group>";
+		};
+		04DD9AAB1D957F33003CEBD8 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				04DD9ACA1D958514003CEBD8 /* Follow.storyboard */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		04DD9AAC1D957F33003CEBD8 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		04DD9AAD1D957F33003CEBD8 /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		04DD9AAE1D957F33003CEBD8 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				04DD9AAF1D957F33003CEBD8 /* controller */,
+				04DD9AB01D957F33003CEBD8 /* model */,
+				04DD9AB11D957F33003CEBD8 /* view */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		04DD9AAF1D957F33003CEBD8 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				04DD9AC41D9584C3003CEBD8 /* Home.storyboard */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		04DD9AB01D957F33003CEBD8 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		04DD9AB11D957F33003CEBD8 /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		04DD9AB21D957F33003CEBD8 /* Live */ = {
+			isa = PBXGroup;
+			children = (
+				04DD9AB31D957F33003CEBD8 /* controller */,
+				04DD9AB41D957F33003CEBD8 /* model */,
+				04DD9AB51D957F33003CEBD8 /* view */,
+			);
+			path = Live;
+			sourceTree = "<group>";
+		};
+		04DD9AB31D957F33003CEBD8 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				04DD9AC71D9584EF003CEBD8 /* Live.storyboard */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		04DD9AB41D957F33003CEBD8 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		04DD9AB51D957F33003CEBD8 /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		04DD9AB61D957F33003CEBD8 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				04DD9AB71D957F33003CEBD8 /* controller */,
+				04DD9AB81D957F33003CEBD8 /* model */,
+				04DD9AB91D957F33003CEBD8 /* view */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		04DD9AB71D957F33003CEBD8 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				04DD9A301D94210D003CEBD8 /* Main.storyboard */,
+				04DD9AD01D95875A003CEBD8 /* MainViewController.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		04DD9AB81D957F33003CEBD8 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		04DD9AB91D957F33003CEBD8 /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		04DD9ABA1D957F33003CEBD8 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				04DD9ABB1D957F33003CEBD8 /* controller */,
+				04DD9ABC1D957F33003CEBD8 /* model */,
+				04DD9ABD1D957F33003CEBD8 /* view */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		04DD9ABB1D957F33003CEBD8 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				04DD9ACD1D958532003CEBD8 /* Profile.storyboard */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		04DD9ABC1D957F33003CEBD8 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		04DD9ABD1D957F33003CEBD8 /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,6 +407,10 @@
 				04DD9A371D94210D003CEBD8 /* LaunchScreen.storyboard in Resources */,
 				04DD9A341D94210D003CEBD8 /* Assets.xcassets in Resources */,
 				04DD9A321D94210D003CEBD8 /* Main.storyboard in Resources */,
+				04DD9AC91D9584EF003CEBD8 /* Live.storyboard in Resources */,
+				04DD9AC61D9584C3003CEBD8 /* Home.storyboard in Resources */,
+				04DD9ACF1D958532003CEBD8 /* Profile.storyboard in Resources */,
+				04DD9ACC1D958514003CEBD8 /* Follow.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +435,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04DD9A2F1D94210D003CEBD8 /* ViewController.swift in Sources */,
 				04DD9A2D1D94210D003CEBD8 /* AppDelegate.swift in Sources */,
+				04DD9AD11D95875A003CEBD8 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,6 +478,7 @@
 				04DD9A311D94210D003CEBD8 /* Base */,
 			);
 			name = Main.storyboard;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		04DD9A351D94210D003CEBD8 /* LaunchScreen.storyboard */ = {
@@ -310,6 +487,42 @@
 				04DD9A361D94210D003CEBD8 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		04DD9AC41D9584C3003CEBD8 /* Home.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04DD9AC51D9584C3003CEBD8 /* Base */,
+			);
+			name = Home.storyboard;
+			path = ../../Main/controller;
+			sourceTree = "<group>";
+		};
+		04DD9AC71D9584EF003CEBD8 /* Live.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04DD9AC81D9584EF003CEBD8 /* Base */,
+			);
+			name = Live.storyboard;
+			path = ../../Main/controller;
+			sourceTree = "<group>";
+		};
+		04DD9ACA1D958514003CEBD8 /* Follow.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04DD9ACB1D958514003CEBD8 /* Base */,
+			);
+			name = Follow.storyboard;
+			path = ../../Main/controller;
+			sourceTree = "<group>";
+		};
+		04DD9ACD1D958532003CEBD8 /* Profile.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04DD9ACE1D958532003CEBD8 /* Base */,
+			);
+			name = Profile.storyboard;
+			path = ../../Main/controller;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -412,9 +625,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				INFOPLIST_FILE = DouYuTV/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = CWB.DouYuTV;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -426,9 +639,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				INFOPLIST_FILE = DouYuTV/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = CWB.DouYuTV;
 				PRODUCT_NAME = "$(TARGET_NAME)";
