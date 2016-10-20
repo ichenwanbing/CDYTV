@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		044A78D31DB8F6C800603EE5 /* UIBarButtonItem+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044A78D21DB8F6C800603EE5 /* UIBarButtonItem+Extension.swift */; };
 		04DD9A2D1D94210D003CEBD8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DD9A2C1D94210D003CEBD8 /* AppDelegate.swift */; };
 		04DD9A321D94210D003CEBD8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04DD9A301D94210D003CEBD8 /* Main.storyboard */; };
 		04DD9A341D94210D003CEBD8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04DD9A331D94210D003CEBD8 /* Assets.xcassets */; };
@@ -18,6 +19,7 @@
 		04DD9ACC1D958514003CEBD8 /* Follow.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04DD9ACA1D958514003CEBD8 /* Follow.storyboard */; };
 		04DD9ACF1D958532003CEBD8 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04DD9ACD1D958532003CEBD8 /* Profile.storyboard */; };
 		04DD9AD11D95875A003CEBD8 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DD9AD01D95875A003CEBD8 /* MainViewController.swift */; };
+		04DD9AD31D9A84C0003CEBD8 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DD9AD21D9A84C0003CEBD8 /* HomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		044A78D21DB8F6C800603EE5 /* UIBarButtonItem+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem+Extension.swift"; sourceTree = "<group>"; };
 		04DD9A291D94210D003CEBD8 /* DouYuTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DouYuTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04DD9A2C1D94210D003CEBD8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04DD9A311D94210D003CEBD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -55,6 +58,7 @@
 		04DD9ACB1D958514003CEBD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = DouYuTV/Base.lproj/Follow.storyboard; sourceTree = SOURCE_ROOT; };
 		04DD9ACE1D958532003CEBD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = DouYuTV/Base.lproj/Profile.storyboard; sourceTree = SOURCE_ROOT; };
 		04DD9AD01D95875A003CEBD8 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		04DD9AD21D9A84C0003CEBD8 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +86,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		044A78D11DB8F69B00603EE5 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				044A78D21DB8F6C800603EE5 /* UIBarButtonItem+Extension.swift */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
 		04DD9A201D94210D003CEBD8 = {
 			isa = PBXGroup;
 			children = (
@@ -110,6 +122,7 @@
 				04DD9AB21D957F33003CEBD8 /* Live */,
 				04DD9AAA1D957F33003CEBD8 /* Follow */,
 				04DD9ABA1D957F33003CEBD8 /* Profile */,
+				044A78D11DB8F69B00603EE5 /* Tools */,
 				04DD9A2C1D94210D003CEBD8 /* AppDelegate.swift */,
 				04DD9A331D94210D003CEBD8 /* Assets.xcassets */,
 				04DD9A351D94210D003CEBD8 /* LaunchScreen.storyboard */,
@@ -182,6 +195,7 @@
 			isa = PBXGroup;
 			children = (
 				04DD9AC41D9584C3003CEBD8 /* Home.storyboard */,
+				04DD9AD21D9A84C0003CEBD8 /* HomeViewController.swift */,
 			);
 			path = controller;
 			sourceTree = "<group>";
@@ -435,8 +449,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				044A78D31DB8F6C800603EE5 /* UIBarButtonItem+Extension.swift in Sources */,
 				04DD9A2D1D94210D003CEBD8 /* AppDelegate.swift in Sources */,
 				04DD9AD11D95875A003CEBD8 /* MainViewController.swift in Sources */,
+				04DD9AD31D9A84C0003CEBD8 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

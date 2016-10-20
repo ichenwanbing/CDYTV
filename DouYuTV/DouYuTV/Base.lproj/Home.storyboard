@@ -5,10 +5,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Home View Controller-->
         <scene sceneID="tIq-5c-xCY">
             <objects>
-                <viewController id="6JV-q2-QPT" sceneMemberID="viewController">
+                <viewController id="6JV-q2-QPT" customClass="HomeViewController" customModule="DouYuTV" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Aq2-u2-feD"/>
                         <viewControllerLayoutGuide type="bottom" id="dgS-Mc-Q8v"/>
@@ -22,7 +22,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lt7-zY-Tu6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1334" y="-612"/>
+            <point key="canvasLocation" x="1014" y="-601"/>
         </scene>
         <!--主页-->
         <scene sceneID="2gc-bP-Riq">
@@ -42,7 +42,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tJ3-7i-pyT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="246" y="-591"/>
+            <point key="canvasLocation" x="-82" y="-584"/>
         </scene>
     </scenes>
     <resources>
