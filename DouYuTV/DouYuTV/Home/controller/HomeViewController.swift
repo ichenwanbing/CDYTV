@@ -14,6 +14,7 @@ class HomeViewController: UIViewController {
         super.viewDidLoad()
  
         setUpUI()
+        //测试一下
 
     }
     
